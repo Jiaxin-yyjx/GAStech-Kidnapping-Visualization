@@ -1,0 +1,31 @@
+TYPE,TITLE,TOTAL
+Administration,Assistant to CEO,1
+Administration,Assistant to CFO,1
+Administration,Assistant to CIO,1
+Administration,Assistant to COO,1
+Administration,Assistant to Engineering Group Manager,1
+Administration,Assistant to IT Group Manager,1
+Administration,Assistant to Security Group Manager,1
+Engineering,Drill Site Manager,1
+Engineering,Drill Technician,5
+Engineering,Engineer,2
+Engineering,Engineering Group Manager,1
+Engineering,Geologist,2
+Engineering,Hydraulic Technician,2
+Executive,Environmental Safety Advisor,1
+Executive,President/CEO,1
+Executive,SVP/CFO,1
+Executive,SVP/CIO,1
+Executive,SVP/COO,1
+Facilities,Facilities Group Manager,1
+Facilities,Janitor,2
+Facilities,Lead Janitor,1
+Facilities,Truck Driver,9
+Information Technology,IT Group Manager,1
+Information Technology,IT Helpdesk,1
+Information Technology,IT Technician,3
+Security,Badging Office,2
+Security,Building Control,1
+Security,Perimeter Control,4
+Security,Security Group Manager,1
+Security,Site Control,3
