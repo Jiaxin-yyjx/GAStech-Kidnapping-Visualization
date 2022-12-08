@@ -4,6 +4,8 @@ d3.queue()
   .await(ready);
 
 function ready(error, typeTitleTotalData, typeTotalData) {
+  if (error) throw error;
+  
   // Initial
   const innerWidth = window.innerWidth / 2;
   const margin = {top: 30, right: 30, bottom: 30, left: 30},
