@@ -8,6 +8,9 @@
     <script src="https://cdn.jsdelivr.net/npm/d3-color@3"></script>
     <script src="https://cdn.jsdelivr.net/npm/d3-interpolate@3"></script>
     <script src="https://cdn.jsdelivr.net/npm/d3-scale-chromatic@3"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-dispatch@3"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-selection@3"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-drag@3"></script>
     <script src="js/dataLoading.js"></script>
     <script src="js/employeeTypeAndTitleDistribution.js"></script>
     <script src="js/emailContactDistribution.js"></script>
@@ -35,6 +38,7 @@
       <div class="row col-md-6 py-4 m-4">
         <div class="d-flex justify-content-start">
             <div id="employeeEmailContactDistribution">
+              <div id="employeeEmailContactDistributionTooltip" class="position-absolute bg-white border border-dark border-2 rounded-1 p-2"></div>
               <div id="employeeEmailContactDistributionTitle" class="d-flex justify-content-center">
                 <p class="h4 text-center mb-0 fw-normal">Employee Email Contact Distribution</p>
               </div>
