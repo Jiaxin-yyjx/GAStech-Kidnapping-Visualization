@@ -52,15 +52,8 @@ dataContact = pd.read_csv("../MC1_2021/email headers.csv", encoding='cp1252')
 df3 = pd.DataFrame(dataContact)
 
 # Select and Rename Columns, and Ensure indexes pair with number of rows
-df4 = df3[~df3["Subject"].str.contains("Joke") 
-    & ~df3["Subject"].str.contains("coffee") 
-    & ~df3["Subject"].str.contains("Plants") 
-    & ~df3["Subject"].str.contains("birthday") 
-    & ~df3["Subject"].str.contains("Funny")
-    & ~df3["Subject"].str.contains("Ha ha")
-    & ~df3["Subject"].str.contains("DECAF")
-]
-df4 = df4[["From", "To"]].reset_index()  
+# TODO: We plan to use some NLP algorithm to filter emails
+df4 = df3[["From", "To"]].reset_index()  
 
 # Create Dict
 dict = {
