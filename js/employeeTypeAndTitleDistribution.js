@@ -41,7 +41,7 @@ function ready(error, typeTitleTotalData, typeTotalData) {
     tooltip.style("opacity", 1);
   }
 
-  let mouseMove = function(d) {
+  let mouseMove = function(event, d) {
     let str = "";
     for(let i = 0; i < typeTitleTotalData.length; i ++) {
       if ((typeTitleTotalData[i]["TYPE"]) == d["TYPE"]) {
@@ -52,7 +52,7 @@ function ready(error, typeTitleTotalData, typeTotalData) {
     }
     str += "<div>Total: " + d["TOTAL"] + "</div>";
 
-    tooltip.html(str).style("left", (d3.event.x + 30) + "px").style("top", (d3.event.y) + "px")
+    tooltip.html(str).style("left", (event.x + 30) + "px").style("top", (event.y) + "px")
   }
   
   // Build scales 
