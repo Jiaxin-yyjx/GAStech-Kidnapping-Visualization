@@ -1,9 +1,6 @@
 import pandas as pd
 import numpy as np
 import json
-from gensim.parsing.preprocessing import STOPWORDS
-from gensim.models import Word2Vec
-import re
 
 ########## 1. Employee Type and Title data
 ########## df, df1, df2, df3
@@ -83,8 +80,8 @@ for index, row in df4.iterrows():
             email = elt[emailIndex]
             if (email == fromEmail):
                 found = True
-                type = elt[typeIndex]
-                group = table2.index[table2['TYPE'] == type].to_list()[0]
+                department = elt[typeIndex]
+                group = table2.index[table2['TYPE'] == department].to_list()[0]
                 break
         if not found:
             print("Warning:" + fromEmail)
@@ -116,8 +113,8 @@ for index, row in df4.iterrows():
                 email = elt[emailIndex]
                 if (email == toEmail):
                     found = True
-                    type = elt[typeIndex]
-                    group = table2.index[table2['TYPE'] == type].to_list()[0]
+                    department = elt[typeIndex]
+                    group = table2.index[table2['TYPE'] == department].to_list()[0]
                     break
             if not found:
                 print("Warning:" + toEmail)
