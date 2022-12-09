@@ -1,7 +1,7 @@
-TYPE,TOTAL
-Administration,7
-Engineering,13
-Executive,5
-Facilities,13
-Information Technology,5
-Security,11
+INDEX,TYPE,TOTAL
+0,Administration,7
+1,Engineering,13
+2,Executive,5
+3,Facilities,13
+4,Information Technology,5
+5,Security,11
