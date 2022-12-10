@@ -7,25 +7,25 @@ GAStech has been operating a natural gas production site in Kronos for about twe
 
 ### Analytical Questions 
 1. Overall Question: 
-What kinds of thing led to the kidnapping during GAStech’s celebration activity in 2014? 
+- What kinds of thing led to the kidnapping during GAStech’s celebration activity in 2014? 
 
 2. Intermediate Questions: 
-What is the cooperation between different departments? 
+- What is the cooperation between different departments? 
 
-Who always contacts each other through email? 
+- Who always contacts each other through email? 
 
-Who in Government and POK appears in any activities held by GAStech? 
+- Who in Government and POK appears in any activities held by GAStech? 
 
-Does anyone work for both POK and GAStech in their career period? 
+- Does anyone work for both POK and GAStech in their career period? 
 
 3. Elementary Questions:  
 
-What are the current employment types and titles in GAStech company?  
+- What are the current employment types and titles in GAStech company?  
 
-Who does each assistant contact within the Administration department?   
+- Who does each assistant contact within the Administration department?   
 
-Who shares the same birth country and citizenship country?  
+- Who shares the same birth country and citizenship country?  
 
-What are those passports issued and expiration dates for all employees?  
+- What are those passports issued and expiration dates for all employees?  
 
-What are the number of publications from all the article sources?  
+- What are the number of publications from all the article sources?  
